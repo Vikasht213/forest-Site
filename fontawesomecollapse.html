@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Font Awesome Collapse</title>
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <link rel="stylesheet" href="dist/css/font-awesome.css">
+        <link rel="stylesheet" href="dist/css/mystyle.css">
+        <script src="dist/js/jquery.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="navbar-brand">BSY</div>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Serivces</a></li>
+            <li><a href="#">Projects</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                 <li><a href="#">Html</a></li>
+                 <li><a href="#">CSS</a></li>
+                 <li class="divider"><a href="">javascript</a></li>
+                 <li><a href="#">Html</a></li>
+                 <li><a href="#">Html</a></li>
+             </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-toggle="modal" data-target="#contact">Contact</a></li>
+            <li><a href="#" data-toggle="collapse" data-target="#login">Signup</a></li>
+            <li><a href="#" data-toggle="collapse" data-target="#mylogin">Login</a></li>
+            <li><a href="#"><i class="fa fa-facebook-square fa fa-2x blue"></i></a></li>
+        </ul>
+    </div><!---Container close-->
+       </nav><!--navbar close-->
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-sm-3">
+                   <div class="modal fade" id="contact">
+                       <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">Enquiry</div>
+                               <div class="modal-body background2">
+                                   <form action="#" method="post">
+                                   <label>Name</label>
+                                   <input type="text" class="form-control" required="required"><br>
+                                   <label>Contact-Number</label>
+                                   <input type="number" class="form-control"><br>
+                                   <label>Courses</label>
+                                   <select class="form-control">
+                                       <option>Choose-Course</option><br>
+                                   </select><br>
+                                   <div class="modal-footer text-center">
+                                   <button class="btn btn-success btn-block"><a href="f1.html" class="btn">Send</a></button>
+                                </div>
+                                </form>
+                            </div> <!---modal body close-->
+                           </div><!----modal content close-->
+                       </div><!--modal dialog close-->
+                   </div>
+               </div>
+               <div class="col-sm-6">
+               <div class="panel panel-success collapse" id="login">
+                   <div class="panel-heading">Sign-up</div>
+                   <div class="panel-body background1">
+                       <label>Email-Id</label>
+                       <input type="text" class="form-control"><br>
+                       <label>password</label>
+                       <input type="text" class="form-control"><br>
+                       <label>Confirm-password</label>
+                       <input type="text" class="form-control">
+                   </div>
+                   <div class="panel-footer text-center">
+                       <button class="btn btn-info">Register</button>
+                   </div>
+               </div>
+            </div>
+               <div class="col-sm-3">
+                   <div class="panel panel-success collapse" id="mylogin">
+                       <div class="panel-heading">Login</div>
+                       <div class="panel-body background">
+                               <label>Name</label>
+                                <input type="text" class="form-control">
+                                 <br>
+                                <label>Password</label>
+                                <input type="password" class="form-control">
+                       </div>
+                       <div class="panel-footer text-center">
+                           <button class="btn btn-info">Close</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </body>
+</html>

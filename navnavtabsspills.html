@@ -1,0 +1,38 @@
+
+<html>
+   <head>
+       <title>Nav Tabs Pills</title>
+       <link rel="stylesheet" href="dist/css/bootstrap.css">
+       <script src="dist/js/jquery.js"></script>
+       <script src="dist/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+       <div class="container-fluid">
+           <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="nav nav-pills nav-stacked">
+                   <li class="active"><a href=""><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                   <li ><a href=""><span class="glyphicon glyphicon-edit"></span>About</a></li>
+                   <li><a href=""><span class="glyphicon glyphicon-cutlery"></span>Dishes</a></li>  
+                   <li class="active"><a href="" data-toggle="modal" data-target="#mymodal"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2"></div>
+           </div><!--parent row-->
+           <div class="modal fade" id="mymodal">
+               <div class="modal-dialog modal-sm">
+                   <div class="modal-content" style="background-color: chocolate; color:white;">
+                       <div class="modal-header">Header
+                          <a href="#close" class="close" data-dismiss="modal">&times;</a>
+                       </div>
+                       <div class="modal-body">Hello World       
+                    </div>
+                    <div class="modal-footer"><button type="button" class="btn btn-info" data-dismiss="modal" style="color:white;">Close</button>             
+                    </div>
+                   </div><!--Modal Content-->
+               </div><!----modal close-->
+           </div> <!---model fade close-->
+       </div> <!---Container close-->
+   </body>
+</html>

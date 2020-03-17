@@ -1,0 +1,166 @@
+BOOTSTRAP is first framework of html, css, javascript design for responsive webpage designing
+
+
+it is product of twitter, given in 2011 in GPL (general public license ) Free of cost 
+BOOTSTRAP is library of CSS. it is based on grid system .
+Grid -system : all the devices are devided into 4 types as per bootstrap 3, and in 5 types as per bootstrap 4.
+
+In bootstrap 3 one device is 
+1. xtra small device (from 1px to 777px)
+2.samll device (from 778px to 990px)
+3.medium device (from 991px to 1200px)
+4.large device (more than 1201px is large device)
+-------------------------------------------------------------------------------------------------
+a.xtra small device
+   col-xs-1
+   col-xs-2
+   col-xs-3
+   col-xs-4
+   col-xs-5
+   col-xs-6
+   col-xs-7
+   col-xs-8
+   col-xs-9
+   col-xs-10
+   col-xs-11
+   col-xs-12
+--------------------------------
+b.small device
+ col-xs-1
+   col-sm-2
+   col-sm-3
+   col-sm-4
+   col-sm-5
+   col-sm-6
+   col-sm-7
+   col-sm-8
+   col-sm-9
+   col-sm-10
+   col-sm-11
+   col-sm-12
+--------------------------------------------   
+c.medium device
+   col-md-1
+   col-md-2
+   col-md-3
+   col-md-4
+   col-md-5
+   col-md-6
+   col-md-7
+   col-md-8
+   col-md-9
+   col-md-10
+   col-md-11
+   col-md-12
+---------------------------------------------------------------
+   d.large device
+   col-lg-1
+   col-lg-2
+   col-lg-3
+   col-lg-4
+   col-lg-5
+   col-lg-6
+   col-lg-7
+   col-lg-8
+   col-lg-9
+   col-lg-10
+   col-lg-11
+   col-lg-12
+--------------------------------------------
+while designing a page using bootstrap follow these steps
+1. link bootstrap.css in head section
+2. follow body tag,
+3. inside body follow these classes 
+      1. container   (it has margin from left & right)
+      2.container-fluid (it has 0px margin)
+4. inside container 
+        -->follow class as 
+              1."row"
+5. inside the row follow either of 12 classes from given 48.
+--------------------------------------------------------------------
+for  Text alignment 
+--------------------------------
+text-left
+text-right
+text-center
+text-justify
+----------
+for --text-color
+---------------------------------
+text-danger
+text-info
+text-warning
+text-success
+-----------
+for background color
+---------------------------------
+bg-danger
+bg-info
+bg-warning
+bg-success
+well
+jumbotrom
+----------------
+for image
+--------------------------------------------------
+img-responsive
+img-circle
+img-rounded
+img-thumbnail
+------------------
+for button
+--------------------------------------------------
+btn
+btn-primary
+btn-info
+btn-danger
+btn-success
+btn-default
+btn-lg
+btn-sm
+btn-md
+btn-block
+---------------------------
+Left Navigation
+list-group
+       list-group-item
+       active
+
+
+
+nav
+--------------------
+For table
+---------
+table
+table bordered
+table hover
+----------------
+for Tr
+   ----
+
+active 
+info 
+success
+danger 
+warning
+------------------
+For Pagination
+    ---------
+    pager
+    Pagination
+------------------
+ For-pAnel
+     -----
+     pAnel
+     panel-heading
+     panal-body
+     panel-footer
+
+     panel-primary
+     panel-danger
+     panel-success
+     panel-warning
+     panel-default
+     panel-info
+     -----------------------------
